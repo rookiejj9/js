@@ -1,0 +1,58 @@
+/* 重置浏览器默认样式 */
+body, h1, h2, p, ul, li, nav, header, main, section, footer {
+    margin: 0;
+    padding: 0;
+}
+
+/* 设置字体和背景颜色 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* 设置标题的样式 */
+h1, h2 {
+    color: #333;
+}
+
+/* 设置导航栏的样式 */
+nav ul {
+    list-style-type: none;
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* 设置主内容区域的样式 */
+main {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 设置段落的样式 */
+p {
+    line-height: 1.6;
+    color: #666;
+}
+
+/* 设置页脚的样式 */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+}
